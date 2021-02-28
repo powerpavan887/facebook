@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        #main {
+            padding: 15px;
+            background-color:rgb(59,89,152);
+            margin: 0px;
+        
+        }
+        #main h1{
+            margin: 0px;
+            top: 30px;
+            text-align: center;
+            display: flex;
+            align-items:flex-start;
+            position: relative;
+            font-size: 40px;
+            
+            margin-left: 100px;
+            color: white;
+            text-shadow: -3px 1px  1px red;
+            flex-direction: column;
+        }
+         #login1{
+             position: relative;
+            margin-left: 830px;
+            margin-bottom: 8px;
+            top: 8px;
+            padding: 7px;
+            border-radius: 15px;
+            border: none ;
+            box-shadow: 0 0 10px black;   
+            flex-direction: row;
+        }
+        #main #login1:hover{
+            box-shadow: 0 0 10px white;
+            border: 0.5px solid black;
+        }
+        #login1:before{
+            background-color: aqua;
+            color: red;
+        }
+        #login2{
+            position: relative;
+            top: 8px;
+            margin-left: 30px;
+           margin-right: 100PX; 
+           margin-bottom: 8px;
+           padding: 7px;
+            border-radius: 15px;
+            border: none ;
+            box-shadow: 0 0 10px black;    
+            flex-direction: row;
+        }
+        #main #login2:hover{
+            box-shadow: 0 0 10px white;
+            border: 0.5px solid black;
+            
+        } 
+        #login3{
+            position: relative;
+            top: 8px;
+            margin-left: -70px;
+            margin-bottom: 8px;
+            padding: 7px;
+            border-radius: 15px;
+            border: none ;
+            box-shadow: 0 0 10px black;  
+            flex-direction: row;  
+        }
+        #login3:hover{
+            box-shadow: 0 0 10px white;
+            border: 0.5px solid black;
+        }
+
+        #main-content{
+            margin: 0px;
+            margin-top: 60px;
+            background: url("fb9.jpeg");
+            border-radius: 50%;
+            background-size: cover;
+            margin-left: 100px;
+            height: 500px;
+            width: 550px;
+            display:flex ;
+            align-items:flex-start ;
+            justify-content:space-between;
+            float: left;
+            
+
+            
+        }
+        #main-content h2{
+            margin: 0px;
+            margin-top: 10px;
+            margin-left: 65px;
+            font-size: 22px;
+            
+        }
+         #create{
+           display:inline-block;
+           position: relative;
+           margin:0px;
+           margin-left: 260px;
+           margin-top: 60px;
+           font-size: 40px;
+           font-family:inherit;
+           text-shadow: -1px -2px 2px orange;
+
+        }
+        #text{
+            display:inline-block;
+            position: relative;
+            margin-left: 260px;
+            font-size: 22px;
+            font-family:inherit;
+        }
+        #name{
+            display:inline-block;
+            position: relative;
+            margin-left: 260px;
+            margin-bottom: 15px;
+            padding: 4px;
+            
+        }
+        #name:hover{
+            background-color:aqua;
+        }
+        #kumar{
+         padding: 4px;   
+        }
+        #kumar:hover{
+            background-color:aqua;
+        }
+        #number,#password{
+            display:inline-block;
+            position: relative;
+            margin-left: 260px;
+            margin-bottom: 15px;
+            width: 334px;
+            padding: 4px;
+        }
+        #number:hover{
+            background-color:aqua;
+           
+        }
+        #password:hover{
+            background-color:aqua;
+        }
+        #terms{
+            display:inline-block;
+            position: relative;
+            margin-left: 260px;
+        }
+        #button{
+            display:inline-block;
+            position: relative;
+            margin-left: 260px;
+            width: 150px;
+            padding: 4px;
+        }
+        #button:hover{
+            background-color: green;
+            color: white;
+        }
+        #image{
+            background-image: url("fb7.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 750px;
+            
+        }
+        #footer{
+            margin-top: 120px;
+            padding: 30px;
+            background:url("fb8.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: black;
+            text-decoration:none;
+            position: relative;
+            display:block;;
+            flex-direction: row;
+        }
+        #footer table{
+            position: relative;
+            margin-left:400px;
+            color: black;
+            text-decoration:none;
+
+
+        }
+        #footer td{
+            padding: 5px;
+            padding-left: 100px;
+           position: relative;
+            color: black;
+        }
+       #footer td{
+           color: black;
+       }
+       #ab{
+          padding-left: 100px;
+       }
+       #bc{
+           padding-left: 100px;
+       }
+       #cd{
+           padding-right: 80px;
+       }
+       @media (max-width:700px)
+       {
+            #login1  (max-width: 400px;)
+            {
+              flex-direction: column;  
+              width: 100%;
+            }
+            #login2  (max-width: 400px;)
+            {
+                flex-direction: column;
+                width: 100%;
+            }
+            #login3 (max-width: 400px;)
+            {
+                flex-direction: column;
+                width: 100%;
+            }
+            #footer (max-width: 400px;)
+            {
+                flex-direction: column;
+                width: 100%;
+            }
+            #form{
+                flex-direction: column;
+                width: 100%;
+            }
+            
+       }
+        
+        
+
+    </style>
+</head>
+<body>
+    <nav id="image">
+        <div id="main">
+            <h1>facebook</h1>
+            <input id="login1" type="text"placeholder="E-mail & phone number">
+            <input id="login2" type="password"placeholder="password">
+            <button id="login3">Login</button>
+        </div>
+        <div id="main-content">
+            <h2>facebook helps you means up your life by giving <br>you chances to waste time.</h2> 
+        </div>
+        <div>
+           <form id="form">
+            <h1 id="create">Create an account</h1>
+            <h2 id="text">it's free and always will be.</h2><br>
+            <input id="name" type="text"placeholder="First name">&numsp;<input id="kumar" type="text" placeholder="Last name"><br>
+            <input id="number" type="text"placeholder="Mobile number or E-mail address">
+            <input id="password" type="password"placeholder="New password"> <br>    
+            <input id="password" type="date"><br>
+            <input id="text" type="radio" name="pavan">Male <input type="radio" name="pavan">Female <br>
+            <p id="terms">By clicking SignUp.you agree to our <b>Terms</b> and that you that have <br> read out <b>Data Use Policy,</b>including our  <b>cookie use.</b></p> <br>
+            <button id="button">Sign Up</button>
+           </form>
+        </div>
+        <footer id="footer">
+            <table>
+             <tr>
+                 <th id="ab"> <a href="link"style="color: black;">OfficeSuite</a></th>
+                 <th id="bc"><a href="link"style="color: black;">Comapany</a></th>
+                 <th id="cd"><a href="link"style="color: black;"> Contacts</a></th>
+             </tr>
+             <tr>
+                 <td><a href="link"style="text-decoration: none;"> Plans</a></td>
+                 <td> <a href="link"style="text-decoration: none;">about</a> </td>
+                 <td><a href="link"style="text-decoration: none;"> MobiSystem,inc</a></td>
+             </tr>
+             <tr>
+                 <td><a href="link"style="text-decoration: none;">Download</a> </td>
+                 <td><a href="link"style="text-decoration: none;"> Partners</a></td>
+                 <td><a href="link"style="text-decoration: none;">pavanroyals pavanroyals</a> </td>
+             </tr>
+             <tr>
+                 <td><a href="link"style="text-decoration: none;">Support</a> </td>
+                 <td><a href="link"style="text-decoration: none;">Market</a> </td>
+                 <td><a href="link"style="text-decoration: none;"> tel:+91 9182307705</a></td>
+             </tr>
+             <tr>
+                 <td></td>
+                 <td></td>
+                 <td><a href="link" style="text-decoration: none;"> E-mail:powerpavan887@gmail.com</a></td>
+             </tr>
+            </table>
+         </footer>
+    </nav>
+</body>
+</html>
